@@ -6,17 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A3AFBF242E1358B200D2A51F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF212E1358B200D2A51F /* ContentView.swift */; };
+		A3AFBF252E1358B200D2A51F /* tripluxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF222E1358B200D2A51F /* tripluxApp.swift */; };
+		A3AFBF262E1358B200D2A51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AFBF202E1358B200D2A51F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A3AFBF122E13575F00D2A51F /* triplux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = triplux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AFBF202E1358B200D2A51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3AFBF212E1358B200D2A51F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3AFBF222E1358B200D2A51F /* tripluxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripluxApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A3AFBF142E13575F00D2A51F /* triplux */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = triplux;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A3AFBF0F2E13575F00D2A51F /* Frameworks */ = {
@@ -32,7 +33,7 @@
 		A3AFBF092E13575F00D2A51F = {
 			isa = PBXGroup;
 			children = (
-				A3AFBF142E13575F00D2A51F /* triplux */,
+				A3AFBF232E1358B200D2A51F /* triplux */,
 				A3AFBF132E13575F00D2A51F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +44,16 @@
 				A3AFBF122E13575F00D2A51F /* triplux.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A3AFBF232E1358B200D2A51F /* triplux */ = {
+			isa = PBXGroup;
+			children = (
+				A3AFBF202E1358B200D2A51F /* Assets.xcassets */,
+				A3AFBF212E1358B200D2A51F /* ContentView.swift */,
+				A3AFBF222E1358B200D2A51F /* tripluxApp.swift */,
+			);
+			path = triplux;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +70,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A3AFBF142E13575F00D2A51F /* triplux */,
 			);
 			name = triplux;
 			packageProductDependencies = (
@@ -109,6 +117,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AFBF262E1358B200D2A51F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AFBF242E1358B200D2A51F /* ContentView.swift in Sources */,
+				A3AFBF252E1358B200D2A51F /* tripluxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
