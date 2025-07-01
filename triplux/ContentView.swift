@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Start.swift
 //  triplux
 //
 //  Created by Dario Daßler on 01.07.25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Start: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Start()
 }

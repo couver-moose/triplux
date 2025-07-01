@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A3AFBF242E1358B200D2A51F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF212E1358B200D2A51F /* ContentView.swift */; };
+		A3AFBF242E1358B200D2A51F /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF212E1358B200D2A51F /* Start.swift */; };
 		A3AFBF252E1358B200D2A51F /* tripluxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF222E1358B200D2A51F /* tripluxApp.swift */; };
 		A3AFBF262E1358B200D2A51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AFBF202E1358B200D2A51F /* Assets.xcassets */; };
+		A3AFBF282E13599F00D2A51F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF272E13599F00D2A51F /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A3AFBF122E13575F00D2A51F /* triplux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = triplux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AFBF202E1358B200D2A51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3AFBF212E1358B200D2A51F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3AFBF212E1358B200D2A51F /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
 		A3AFBF222E1358B200D2A51F /* tripluxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripluxApp.swift; sourceTree = "<group>"; };
+		A3AFBF272E13599F00D2A51F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				A3AFBF202E1358B200D2A51F /* Assets.xcassets */,
-				A3AFBF212E1358B200D2A51F /* ContentView.swift */,
+				A3AFBF212E1358B200D2A51F /* Start.swift */,
 				A3AFBF222E1358B200D2A51F /* tripluxApp.swift */,
+				A3AFBF272E13599F00D2A51F /* WelcomeView.swift */,
 			);
 			path = triplux;
 			sourceTree = "<group>";
@@ -128,7 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3AFBF242E1358B200D2A51F /* ContentView.swift in Sources */,
+				A3AFBF242E1358B200D2A51F /* Start.swift in Sources */,
+				A3AFBF282E13599F00D2A51F /* WelcomeView.swift in Sources */,
 				A3AFBF252E1358B200D2A51F /* tripluxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
