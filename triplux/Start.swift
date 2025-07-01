@@ -15,7 +15,7 @@ struct Start: View {
         WelcomeView(begin: $beginAdventure)
         .fullScreenCover(isPresented: $beginAdventure) {
             NavigationStack {
-                Label("Hello, World!", systemImage: "mountain.2")
+                AdventureMap()
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
                         Button("Zurück zum Start", systemImage: "chevron.left") {
@@ -23,6 +23,7 @@ struct Start: View {
                         }
                     }
                 }
+                .toolbarBackgroundVisibility(.hidden)
             }
         }
     }
@@ -30,4 +31,5 @@ struct Start: View {
 
 #Preview {
     Start()
+        .modelContainer(for: [Pin.self], inMemory: true)
 }

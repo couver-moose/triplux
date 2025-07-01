@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct tripluxApp: App {
     var body: some Scene {
         WindowGroup {
             Start()
+                .modelContainer(for: [Pin.self])
         }
     }
 }

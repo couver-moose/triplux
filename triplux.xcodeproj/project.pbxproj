@@ -11,6 +11,9 @@
 		A3AFBF252E1358B200D2A51F /* tripluxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF222E1358B200D2A51F /* tripluxApp.swift */; };
 		A3AFBF262E1358B200D2A51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AFBF202E1358B200D2A51F /* Assets.xcassets */; };
 		A3AFBF282E13599F00D2A51F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF272E13599F00D2A51F /* WelcomeView.swift */; };
+		A3AFBF2A2E13ECEB00D2A51F /* AdventureMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF292E13ECEB00D2A51F /* AdventureMap.swift */; };
+		A3AFBF2C2E13EDF600D2A51F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF2B2E13EDF200D2A51F /* Utils.swift */; };
+		A3AFBF2E2E13EE7D00D2A51F /* PinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF2D2E13EE7200D2A51F /* PinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A3AFBF212E1358B200D2A51F /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
 		A3AFBF222E1358B200D2A51F /* tripluxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripluxApp.swift; sourceTree = "<group>"; };
 		A3AFBF272E13599F00D2A51F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A3AFBF292E13ECEB00D2A51F /* AdventureMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureMap.swift; sourceTree = "<group>"; };
+		A3AFBF2B2E13EDF200D2A51F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A3AFBF2D2E13EE7200D2A51F /* PinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,13 @@
 		A3AFBF232E1358B200D2A51F /* triplux */ = {
 			isa = PBXGroup;
 			children = (
+				A3AFBF222E1358B200D2A51F /* tripluxApp.swift */,
+				A3AFBF2B2E13EDF200D2A51F /* Utils.swift */,
+				A3AFBF2D2E13EE7200D2A51F /* PinModel.swift */,
 				A3AFBF202E1358B200D2A51F /* Assets.xcassets */,
 				A3AFBF212E1358B200D2A51F /* Start.swift */,
-				A3AFBF222E1358B200D2A51F /* tripluxApp.swift */,
 				A3AFBF272E13599F00D2A51F /* WelcomeView.swift */,
+				A3AFBF292E13ECEB00D2A51F /* AdventureMap.swift */,
 			);
 			path = triplux;
 			sourceTree = "<group>";
@@ -131,7 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AFBF2C2E13EDF600D2A51F /* Utils.swift in Sources */,
+				A3AFBF2E2E13EE7D00D2A51F /* PinModel.swift in Sources */,
 				A3AFBF242E1358B200D2A51F /* Start.swift in Sources */,
+				A3AFBF2A2E13ECEB00D2A51F /* AdventureMap.swift in Sources */,
 				A3AFBF282E13599F00D2A51F /* WelcomeView.swift in Sources */,
 				A3AFBF252E1358B200D2A51F /* tripluxApp.swift in Sources */,
 			);
