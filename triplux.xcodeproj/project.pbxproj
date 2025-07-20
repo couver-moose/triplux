@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A346B29A2E2151A900431E23 /* AddPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346B2992E2151A900431E23 /* AddPinView.swift */; };
 		A3AFBF242E1358B200D2A51F /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF212E1358B200D2A51F /* Start.swift */; };
 		A3AFBF252E1358B200D2A51F /* tripluxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF222E1358B200D2A51F /* tripluxApp.swift */; };
 		A3AFBF262E1358B200D2A51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AFBF202E1358B200D2A51F /* Assets.xcassets */; };
@@ -14,9 +15,11 @@
 		A3AFBF2A2E13ECEB00D2A51F /* AdventureMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF292E13ECEB00D2A51F /* AdventureMap.swift */; };
 		A3AFBF2C2E13EDF600D2A51F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF2B2E13EDF200D2A51F /* Utils.swift */; };
 		A3AFBF2E2E13EE7D00D2A51F /* PinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF2D2E13EE7200D2A51F /* PinModel.swift */; };
+		A3D42B1A2E17CEC60074DF51 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D42B192E17CEC60074DF51 /* PinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A346B2992E2151A900431E23 /* AddPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPinView.swift; sourceTree = "<group>"; };
 		A3AFBF122E13575F00D2A51F /* triplux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = triplux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AFBF202E1358B200D2A51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3AFBF212E1358B200D2A51F /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
@@ -25,6 +28,7 @@
 		A3AFBF292E13ECEB00D2A51F /* AdventureMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureMap.swift; sourceTree = "<group>"; };
 		A3AFBF2B2E13EDF200D2A51F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		A3AFBF2D2E13EE7200D2A51F /* PinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinModel.swift; sourceTree = "<group>"; };
+		A3D42B192E17CEC60074DF51 /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				A3AFBF212E1358B200D2A51F /* Start.swift */,
 				A3AFBF272E13599F00D2A51F /* WelcomeView.swift */,
 				A3AFBF292E13ECEB00D2A51F /* AdventureMap.swift */,
+				A3D42B192E17CEC60074DF51 /* PinView.swift */,
+				A346B2992E2151A900431E23 /* AddPinView.swift */,
 			);
 			path = triplux;
 			sourceTree = "<group>";
@@ -106,11 +112,11 @@
 				};
 			};
 			buildConfigurationList = A3AFBF0D2E13575F00D2A51F /* Build configuration list for PBXProject "triplux" */;
-			developmentRegion = en;
+			developmentRegion = de;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				de,
 			);
 			mainGroup = A3AFBF092E13575F00D2A51F;
 			minimizedProjectReferenceProxies = 1;
@@ -145,6 +151,8 @@
 				A3AFBF242E1358B200D2A51F /* Start.swift in Sources */,
 				A3AFBF2A2E13ECEB00D2A51F /* AdventureMap.swift in Sources */,
 				A3AFBF282E13599F00D2A51F /* WelcomeView.swift in Sources */,
+				A3D42B1A2E17CEC60074DF51 /* PinView.swift in Sources */,
+				A346B29A2E2151A900431E23 /* AddPinView.swift in Sources */,
 				A3AFBF252E1358B200D2A51F /* tripluxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +291,7 @@
 				DEVELOPMENT_TEAM = Q844GSHHYR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +320,7 @@
 				DEVELOPMENT_TEAM = Q844GSHHYR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

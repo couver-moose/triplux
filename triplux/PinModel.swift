@@ -13,29 +13,30 @@ class Pin {
     var name: String
     var city: String
     var country: String
-    var flag: String
-    var lat: Double
-    var lon: Double
     
-    func coordinate() -> CLLocationCoordinate2D {
-        return CLLocationCoordinate2D(latitude: lat, longitude: lon)
+    var countryCode: String
+    var flag: String {
+        self.countryCode
+        .uppercased()
+        .unicodeScalars
+        .compactMap { UnicodeScalar(127397 + $0.value) }
+        .map { String($0) }
+        .joined()
     }
     
-    init (name: String, city: String, country: String, flag: String, lat: Double, lon: Double) {
-        self.name = name
-        self.city = city
-        self.country = country
-        self.flag = flag
-        self.lat = lat
-        self.lon = lon
+    var lat: Double
+    var lon: Double
+    var coordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: self.lat, longitude: self.lon)
     }
     
     init(mapItem: MKMapItem) {
         self.name = mapItem.name ?? ""
         self.city = mapItem.placemark.locality ?? ""
         self.country = mapItem.placemark.country ?? ""
-        self.flag = Utils.flagEmoji(for: mapItem.placemark.countryCode ?? "")
+        self.countryCode = mapItem.placemark.countryCode ?? ""
         self.lat = mapItem.placemark.coordinate.latitude
         self.lon = mapItem.placemark.coordinate.longitude
     }
+    
 }
