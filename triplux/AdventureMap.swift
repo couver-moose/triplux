@@ -29,7 +29,7 @@ struct AdventureMap: View {
         Map(position: $position) {
             ForEach(pins, id: \.self) { pin in
                 Marker(pin.name, systemImage: "pin", coordinate: pin.coordinate)
-                    .tint(Color.accentColor)
+                    .tint(Color.marker)
             }
         }
         .mapStyle(.hybrid)

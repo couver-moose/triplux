@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A346B29A2E2151A900431E23 /* AddPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346B2992E2151A900431E23 /* AddPinView.swift */; };
+		A363DAF72E6E3A06005B3CF6 /* CompareSplitMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A363DAF62E6E3A06005B3CF6 /* CompareSplitMap.swift */; };
 		A3AFBF242E1358B200D2A51F /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF212E1358B200D2A51F /* Start.swift */; };
 		A3AFBF252E1358B200D2A51F /* tripluxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFBF222E1358B200D2A51F /* tripluxApp.swift */; };
 		A3AFBF262E1358B200D2A51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AFBF202E1358B200D2A51F /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		A346B2992E2151A900431E23 /* AddPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPinView.swift; sourceTree = "<group>"; };
+		A363DAF62E6E3A06005B3CF6 /* CompareSplitMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareSplitMap.swift; sourceTree = "<group>"; };
 		A3AFBF122E13575F00D2A51F /* triplux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = triplux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AFBF202E1358B200D2A51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3AFBF212E1358B200D2A51F /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				A3AFBF292E13ECEB00D2A51F /* AdventureMap.swift */,
 				A3D42B192E17CEC60074DF51 /* PinView.swift */,
 				A346B2992E2151A900431E23 /* AddPinView.swift */,
+				A363DAF62E6E3A06005B3CF6 /* CompareSplitMap.swift */,
 			);
 			path = triplux;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A363DAF72E6E3A06005B3CF6 /* CompareSplitMap.swift in Sources */,
 				A3AFBF2C2E13EDF600D2A51F /* Utils.swift in Sources */,
 				A3AFBF2E2E13EE7D00D2A51F /* PinModel.swift in Sources */,
 				A3AFBF242E1358B200D2A51F /* Start.swift in Sources */,
